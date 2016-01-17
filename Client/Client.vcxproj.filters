@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{c037b2a6-e5b8-4927-8eec-c4d9bd49e841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileCopy">
+      <UniqueIdentifier>{5ad44c94-5f45-4b23-a10c-34be46873bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LusDef">
+      <UniqueIdentifier>{0a684e1a-6008-445e-977f-4238e540b56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="전처리된 헤더">
+      <UniqueIdentifier>{ff679e9d-9bb4-436e-b3c4-6ccd6eab881b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page">
+      <UniqueIdentifier>{c60d0119-a5e6-4a02-bd09-c3f7c25809ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{e87c5286-0611-4599-a0f7-51d206ead6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{344334b6-9df1-4957-84ce-73ec36f2222a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page\Button">
+      <UniqueIdentifier>{b94e1dc4-3ee3-4105-9415-329620864ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{d5560e18-da5d-4157-8b67-3b09cef00baf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Button.cpp">
+      <Filter>Page\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerMain.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared Library\FileCopy\FileCopy.cpp">
+      <Filter>FileCopy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared Library\LusDef\LusDef.cpp">
+      <Filter>LusDef</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Page.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>전처리된 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Page\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerMain.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared Library\FileCopy\FileCopy.h">
+      <Filter>FileCopy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared Library\LusDef\scroll.h">
+      <Filter>LusDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared Library\LusDef\LusDef.h">
+      <Filter>LusDef</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Page.h">
+      <Filter>Page</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>전처리된 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
